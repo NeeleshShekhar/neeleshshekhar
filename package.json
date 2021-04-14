@@ -1,5 +1,5 @@
 {
-  "homepage": "https://developerfolio.js.org/",
+  "homepage": "https://neeleshshekhar.com/home",
   "name": "saadpasta.github.io",
   "version": "0.1.0",
   "private": true,
@@ -17,8 +17,8 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "start": "node fetch.js && react-scripts start",
-    "build": "node fetch.js && react-scripts build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "deploy": "gh-pages -b master -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -42,5 +42,16 @@
   "devDependencies": {
     "dotenv": "^8.2.0",
     "prettier": "^2.2.1"
+  },
+  "description": "## A clean, beautiful and responsive portfolio template for Developers!",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeeleshShekhar/Portfolio.git"
+  },
+  "author": "Neelesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NeeleshShekhar/Portfolio/issues"
   }
 }

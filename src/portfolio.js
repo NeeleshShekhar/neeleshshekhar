@@ -9,26 +9,28 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Neelesh Shekhar",
+  title: "Hi all, I'm Neelesh",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Web Developer and UI/UX enthusiast 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks. "
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+    "https://drive.google.com/drive/folders/13yVTJEKQgRexwHltQqlm0sYEHyTpGYn_?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
+  github: "https://github.com/NeeleshShekhar",
+  linkedin: "https://www.linkedin.com/in/neelesh-shekhar-59a038143/",
+  gmail: "nilesh.shekhar1@gmail.com",
+  spotify: "https://open.spotify.com/user/q0lpi2dqvn9rwgebueb6463pq?si=8EAyNkJMTEmX9IqHHGTz7Q",
   facebook: "https://www.facebook.com/saad.pasta7",
   medium: "https://medium.com/@saadpasta",
   stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  instagram: "https://www.instagram.com/neeleshshekhar_/",
+  twitter: "https://twitter.com/NeeleshShekhar1",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
 };
@@ -114,24 +116,38 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Kalinga Institute of Industrial Technology",
+      logo: require("./assets/images/harvardLogo.jpg"),
+      subHeader: "Bachelor of Technology in Computer Science",
+      duration: "July 2018 - April 2022",
+      desc: "Current CGPA: 9.09.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Secratary of college ACM Chapter",
+        "2nd prize in IIIT Bhubaneshwar Fest"
       ]
     },
     {
-      schoolName: "Stanford University",
+      schoolName: "Delhi Public School Ranchi",
       logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
+      subHeader: "Class 12th",
+      duration: "May 2016 - May 2018",
       desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+        "Fecilitated by the school principal and Cheif Cecratary of Jharkhand as Academic Achiever ",
+      descBullets: [
+        "Participated in debates",
+        "Took part in Musical Competitions",
+    ]
+    },
+    {
+      schoolName: "Prayag Sangit Samiti",
+      logo: require("./assets/images/stanfordLogo.png"),
+      subHeader: "Diploma, Indian Classical Music",
+      duration: "",
+      desc:
+        "Prayag Sangeet Samiti is an institute imparting education in Hindustani Classical music, in Allahabad, India.",
+      descBullets: [
+        "Secured Distiction in Diploma"
+    ]
     }
   ]
 };
@@ -143,11 +159,11 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "UI/UX",
+      progressPercentage: "90%"
     },
     {
       Stack: "Programming",
@@ -163,32 +179,44 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
+      role: "Secratary",
+      company: "ACM, Association for Computer Machinery",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
+      date: "December 2019 – Present",
       desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Previosuly Served as the Web Lead with managing over 10+ Web Developers and innumerous projects. ",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed a discussion forum based on React.js for the ACM Team to interact",
+        "Organised various college level events and also conducted various UI/UX workshops"
       ]
     },
     {
       role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
+      company: "JAP-IT, Jharkhand",
+      companylogo: require("./assets/images/quora.jpg"),
+      date: "June 2019 – July 2019",
       desc:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      role: "UI/UX Freelance",
+      company: "UI/UX",
+      companylogo: require("./assets/images/free.jpg"),
       date: "Jan 2015 – Sep 2015",
       desc:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      role: "Marketing Intern",
+      company: "Gilehrio",
+      companylogo: require("./assets/images/gilehrio.png"),
+      date: "February 2015 – Present",
+      desc:
+        "Developed various Marketing and sales strategy to increase the sales for the company.",
+      descBullets: [
+          "Developed a Full-fledged Sales Plan for the company",
+          "Used Branding Techniques and digital marketing techniques to increase brand awareness"
+        ]
     }
   ]
 };
@@ -204,25 +232,58 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "All my learning as projects",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/blockchain.jpg"),
+      projectName: "Cold Chain Vaccine distribution System using Blockchain",
+      projectDesc: "Implemented the concept of blockchain using ethereum-solidity to for safe and secure vaccine distribution which could be easily monitored using the featured provided on the application Technology used: Html, CSS, Javascript, Ethereum Solidity, Bootstrap,MySql",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Visit Project",
+          url: "https://github.com/NeeleshShekhar/Supply-Chain-Management-BlockChain-UseCase"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/vle.jpg"),
+      projectName: "VLE details",
+      projectDesc: "Web application using the .NET framework. Used c# for backend and sql server as database Technology Used: .NET Framework, C#, MySql, Bootstrap4",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://github.com/NeeleshShekhar/Village-Level-Entrepreneur-Registraion-Portal"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/company.png"),
+      projectName: "Company Bill Management system using React",
+      projectDesc: "A one stop platform to process and manage bills for a large audience with features like infinite scroll Technology Used: React.js, CSS, Material UI, Javascript, Python",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://nextu.se/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/resturaunt.png"),
+      projectName: "Resturaunt Web App",
+      projectDesc: "A Full stack web appluation for a resturaunt using React js for frontend and Node js as backend with moongoDb as database",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://nextu.se/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/uius.png"),
+      projectName: "Kitaabvala",
+      projectDesc: "UI/UX project for designing an app to sell and buy books online using all the UI/UX principles",
       footerLink: [
         {
           name: "Visit Website",
@@ -244,32 +305,23 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Runner up in IIIT Bhubaneshwar Fest",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "Among all 70 colleges our band stood second in the annual fest organised by IIIT Bhubaneshwar",
       image: require("./assets/images/codeInLogo.webp"),
       footerLink: [
-        {
-          name: "Certification",
-          url:
-            "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
+        
         {
           name: "Award Letter",
           url:
             "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url:
-            "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Academic Achiever ",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+        "Fecilitated by the school principal and the Cheif secratary of Jharkhand for academic excellence",
       image: require("./assets/images/googleAssistantLogo.webp"),
       footerLink: [
         {
@@ -281,8 +333,8 @@ const achievementSection = {
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      title: "Frontend Development using react",
+      subtitle: "Completed Certifcation Frontend react on coursera",
       image: require("./assets/images/pwaLogo.webp"),
       footerLink: [
         {name: "Certification", url: ""},
@@ -337,7 +389,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -350,15 +402,15 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+    "Discuss a project or just want to catch up for a cup of coffee ? My Inbox is open for all.",
+  number: "+91-9818869681",
+  email_address: "nilesh.shekhar1@gmail.com"
 };
 
 // Twitter Section
