@@ -139,7 +139,7 @@ const greeting = {
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/saadpasta",
+  github: "https://github.com/NeeleshShekhar",
   linkedin: "https://www.linkedin.com/in/saadpasta/",
   gmail: "saadpasta70@gmail.com",
   gitlab: "https://gitlab.com/saadpasta",
